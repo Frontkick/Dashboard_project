@@ -6,8 +6,10 @@ background-image: linear-gradient(to bottom right, yellow 10%, white 50%)
 }
 .google{
     position: absolute;
-    left: 1350px;
-    top: 220px;
+    left: 1400px;
+    top: 420px;
+    
+    
 }
 .container{
     display:flex;
@@ -30,11 +32,20 @@ background-image: linear-gradient(to bottom right, yellow 10%, white 50%)
 }
 .text{
     color:black;
-    font-size:48px;
+    font-size:40px;
     font-weight:700;
-    margin-left:-60px;
+    margin-left:-150px;
 }
-
+.email{
+    margin-left:110px;
+    margin-top:100px;
+    font-size: 25px;
+}
+.pass{
+    margin-left:110px;
+    margin-top:20px;
+    font-size: 25px;
+}
 
 .inputs{
 
@@ -45,30 +56,30 @@ background-image: linear-gradient(to bottom right, yellow 10%, white 50%)
     margin-top:50px;
     
 }
+.signin{
+    text-align:center;
+    margin-left:-90px;
+    margin-top:-50px;
+}
 
 .input{
-    display:flex;
-    align-items:center;
-    margin:auto;
     width:200px;
     height:30px;
-    border-radius:1px ;
+    border:1px solid gray;
     margin-left:130px;
+    box-shadow: 1px 1px 1px 1px gray;
     
 
 }
-.input{
-    margin-top:-30px;
-}
 
-.button{
-    margin-Left:170px;
+.button1{
+    margin-Left:150px;
     margin-top:10px;
     font-size:25px;
     border:4px;
     border-radius:10px;
     height:50px;
-    width:32%;
+    width:80%;
     color:white;
     background-color:rgb(45, 72, 228);
     cursor:pointer;
@@ -77,7 +88,7 @@ background-image: linear-gradient(to bottom right, yellow 10%, white 50%)
     font-size:11px;
     margin-Left:170px;
     color:rgb(45, 72, 228);
-    margin-top:10px;
+    margin-top:40px;
 }
 .reg{
     margin-top:10px;
@@ -87,4 +98,23 @@ background-image: linear-gradient(to bottom right, yellow 10%, white 50%)
 .gray{
     color:gray;
     background: #EAEAEA;
+}
+.imge_icon{
+    flex-direction: column;
+    width:40px;
+    height:40px;
+    padding: 10px;
+}
+.imge_icon1{
+    display:flex;
+    margin-top: 700px;
+    margin-left: 100px;
+    
+}
+.board{
+    color:white;
+    margin-top: -500px;
+    font-size: 70px;
+    margin-left:400px;
+
 }
