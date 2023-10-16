@@ -28,7 +28,7 @@ const Login = () => {
         <div className="container">
             <div className="header">
                 <div className="text">Sign In</div>
-                <p style={{marginLeft:-60+"px"}}>Sign in to your account</p>
+                <div style={{marginLeft:-60+"px"}}>Sign in to your account</div>
                 <div className="underline"></div>
             </div>
             
