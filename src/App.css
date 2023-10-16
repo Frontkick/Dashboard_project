@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.block{
+background-color: black;
+  left: -50;
+  height: 150px;
+  width: 100%;
+  transform: rotate(-40deg);
+  
+}
